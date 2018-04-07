@@ -1,8 +1,23 @@
 // Styling for the masthead
+@media (min-width: 1001px) {
+  header.masthead {
+    background-image: url("../img/header_original.jpg");
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  header.masthead {
+    background-image: url("../img/header_original_1000.jpg");
+  }
+}
+@media (max-width: 500px) {
+  header.masthead {
+    background-image: url("../img/header_original_500.jpg");
+  }
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header_original.jpg');
   background-position: center center;
   @include background-cover;
   hr {
