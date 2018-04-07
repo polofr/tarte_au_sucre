@@ -1,4 +1,4 @@
-sass --update scss:css 
+npm run css, npm run js
 
 # [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 
