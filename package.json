@@ -27,7 +27,7 @@
     },
     "scripts": {
         "css": "gulp css",
-        "js" : "gulp js"
+        "js": "gulp js"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
